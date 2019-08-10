@@ -19,9 +19,8 @@ app.use('/api/posts', (req, res, next) => {
     message: 'Post fletched succesfully!',
     posts: posts
   });
-  next();
+  
 });
-
 
 
 module.exports = app;
